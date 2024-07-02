@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPEEDY EXPRESS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SPEEDY EXPRESS</h1>
+        <p>Reserve su servicio de paquetería con nosotros</p>
+        <form id="packageForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="phone">Teléfono:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="pickup">Lugar de recogida:</label>
+            <input type="text" id="pickup" name="pickup" required>
+            
+            <label for="destination">Destino:</label>
+            <input type="text" id="destination" name="destination" required>
+            
+            <label for="notes">Notas:</label>
+            <textarea id="notes" name="notes"></textarea>
+            
+            <button type="button" id="locateButton">Usar mi ubicación</button>
+            <button type="submit">Reservar</button>
+        </form>
+    </div>
+    <div id="map"></div>
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #ff0000; /* Rojo */
+    font-family: Arial, sans-serif;
+    color: #ffffff; /* Blanco */
+}
+
+.container {
+    background-color: #ffffff; /* Blanco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #ff0000; /* Rojo */
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #ff0000; /* Rojo */
+}
+
+p {
+    margin: 5px 0;
+    color: #ff0000; /* Rojo */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, textarea, button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ff0000; /* Rojo */
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff0000; /* Rojo */
+    color: #ffffff; /* Blanco */
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc0000; /* Un tono más oscuro de rojo */
+}
+
+#map {
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
